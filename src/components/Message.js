@@ -1,5 +1,5 @@
 import React from "react";
-import "./Message.css";
+import './Message.scss';
 
 const Message = ({ text }) => {
   return <div className="message">{text}</div>;
